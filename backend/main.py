@@ -26,6 +26,7 @@ def add_cors_middleware(application: FastAPI):
     )
 
 
+
 # Apply CORS middleware
 add_cors_middleware(app)
 
